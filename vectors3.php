@@ -16,27 +16,26 @@ $com[5]="1TB";
 
 echo "<br>";
 
-echo "Times: " .sizeof($time);
-for($T=0 ; $T<count($time); $T++)
-echo "<br>".$time[$T];
+echo "Times: ";
+foreach ( $time as $1 => $2 ){
+        echo "$time",":","$1";echo ;
 
 echo "<br>";
 
-echo "Dishes: " .sizeof($dishes);
-for($T=0 ; $T<count($dishes); $T++)
-echo "<br>".$dishes[$T];
+echo "Dishes: ";
+foreach ( $dishes as $1 => $2 ){
+        echo "$dishes",":","$1";echo ;
 
 echo "<br>";
 
-echo "Alarms: " .sizeof($alarm);
-for($H=0 ; $H<count($alarm); $H++)
-echo "<br>".$alarm[$H];
+echo "Alarms: ";
+foreach ( $alarm as $1 => $2 ){
+        echo "$alarm",":","$1";echo ;
 
 echo "<br>";
 
-echo "Components: " .sizeof($com);
-for($C=0 ; $C<count($com); $C++)
-echo "<br>".$com[$C];
+echo "Components: ";
+echo ;
 
 echo "<br>";
 
