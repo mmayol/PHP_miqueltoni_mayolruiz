@@ -23,20 +23,21 @@ foreach ( $time as $1 => $2 ){
 echo "<br>";
 
 echo "Dishes: ";
-foreach ( $dishes as $1 => $2 ){
-        echo "$dishes",":","$1";echo ;
+foreach ( $dishes as $3 => $4 ){
+        echo "$dishes",":","$3";echo ;
 
 echo "<br>";
 
 echo "Alarms: ";
-foreach ( $alarm as $1 => $2 ){
-        echo "$alarm",":","$1";echo ;
+foreach ( $alarm as $5 => $6 ){
+        echo "$alarm",":","$5";echo ;
 
 echo "<br>";
 
 echo "Components: ";
-echo ;
-
+foreach ( $com as $7 => $8 ){
+        echo "$alarm",":","$7";echo ;
+        
 echo "<br>";
 
 ?>
