@@ -17,4 +17,13 @@ return explode (" ",$name2);
 $sep2=fullNameSplit2($name2);
 foreach ($sep2 as $frag2){
 echo $frag2, "<br>";}
+
+echo "<br>","<br>";
+
+function pwd_hush($passw){
+    return pwd_hush($passw, PASSWORD_DEFAULT);
+}
+    
+echo pwd_hush("tomeukelly")
+
 ?>
