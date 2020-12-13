@@ -1,11 +1,11 @@
 <?php
-
+//viusi corrections - see comments below amd rubric in moodle
 function messageReplacement( $capitalisedName,$finalPrice){
   $message="PRODUCTNAME final price is FINALPRICE €";
   //use the php function str_ireplace that return a string
   //example of use: $replacedString = str_ireplace("body", "full", "body combat");
   //where $replacedString get the value "full combat"
-
+  //visusi corrections- better using auxiliar variables to avoid fool errors
   return str_ireplace("FINALPRICE",$finalPrice,str_ireplace("PRODUCTNAME",$capitalisedName,$message));
 }
 //
@@ -16,7 +16,7 @@ function discountCalculation($discount,$price){
   if($discountCalculation <= 0)
     return false;
   else
-    return true;
+    return true; // visusi corrections -it has to be a number -> discountCalculation
 }
 
 function nameToCapitalLetters($name){
