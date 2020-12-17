@@ -58,7 +58,7 @@ if ($_GET){
 
   //si els preus de les vistes i els serveis de restauracio diferent de 0
   //sumar-los i assignar el resultat a la variable $partialPrice2
- if ($viewsPrice > 0 && $foodServicesPrice > 0){
+ if ($viewsPrice > 0 && $foodServicesPrice > 0){ //visusi corrections - condició ha de ser diferent !=
     $partialPrice2= $viewsPrice + $foodServicesPrice;
   }
   else { 
